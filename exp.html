@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modal.css">
   <title>Portifólio</title>
 </head>
 
@@ -21,7 +22,33 @@
         <li><a href="exp.html">Experiência</a></li>|
         <li><a href="projetos.html">Projetos</a></li>|
         <li><a href="formacoes.html">Formações</a></li>|
-        <li>Contato</li>
+        <li><button class="entre">Entre em contato</button>
+          <dialog >
+            <h1 style="display: flex; justify-content: center; font-weight: bold; font-size: 20px; margin-bottom: 10%;">Entrar em Contato</h1>
+            <form action="https://formsubmit.co/leonardomoura7878@gmail.com" method="POST">
+              Nome:
+              <input type="text" name="name" placeholder="Digite seu Nome" required><br><br>
+              E-mail:
+              <input type="email" name="email" placeholder="Digite seu E-mail" required><br><br>
+              Mensagem: <br>
+              <textarea name="msg" id="msg" placeholder="Envie sua Mensagem" heigth="100" width="200" required ></textarea><br><br>
+              <button class="enviar" type="submit">Enviar</button>
+         </form>
+         <button id="fecha" class="fechar">Fechar</button>
+          </dialog>
+          <script>
+            const button = document.querySelector("button");
+            const modal = document.querySelector("dialog");
+            const buttonClose = document.querySelector("#fecha");
+      
+            button.onclick = function(){
+              modal.showModal();
+            }
+            buttonClose.onclick = function(){
+              modal.close();
+            }
+      
+          </script></li>
       </ul>
     </nav>
   </header>

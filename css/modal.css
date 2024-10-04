@@ -1,0 +1,64 @@
+dialog::backdrop{
+    background-color: rgb(0 0 0 / .5);
+}
+dialog{
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    height: 35%;
+    width: 22%;
+}
+.enviar{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin-top: 8%;
+    cursor: pointer;
+}
+.enviar:hover{
+    transform: scale(1.35);
+    background-color: rgb(95, 240, 107);
+}
+.fechar{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    margin-left: 70%;
+    margin-top: -5%;
+    cursor: pointer;
+}
+.fechar:hover{
+    transform: scale(1.35);
+    background-color: rgb(228, 37, 37);
+}
+textarea{
+    margin-left: 17%;
+}
+.entre{
+    background: transparent;
+    color: black;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.entre:hover{
+   animation-name: botao;
+   animation-duration: 0.5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+   box-shadow: 0 0 50px 20px rgb(0, 0, 0, 0.5);
+}
+
+@keyframes botao{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
