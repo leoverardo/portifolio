@@ -5,14 +5,14 @@ dialog{
     border: none;
     border-radius: .5rem;
     box-shadow: 0 0 1em rgb(0 0 0 / .3);
-    height: 35%;
-    width: 22%;
+    height: 40%;
+    width: 23%;
 }
 .enviar{
     background-color: white;
     color: black;
     font-weight: bold;
-    border: none;
+    
     margin-top: 8%;
     cursor: pointer;
 }
@@ -24,7 +24,6 @@ dialog{
     background-color: white;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    border: none;
     margin-left: 70%;
     margin-top: -5%;
     cursor: pointer;

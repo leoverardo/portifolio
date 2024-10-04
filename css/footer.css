@@ -43,3 +43,46 @@
     font-size: large;
     margin-left: 3%;
 }
+
+.button1:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px rgb(0, 0, 0, 0.5);
+ }
+ .button2:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px rgb(0, 0, 0, 0.5);
+ }
+ .button3:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px rgb(0, 0, 0, 0.5);
+ }
+ .button4:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px rgb(0, 0, 0, 0.5);
+ }
+
+
+ @keyframes botao{
+     0%{
+         transform: scale(1);
+     }
+     100%{
+         transform: scale(1.05);
+     }
+ }
